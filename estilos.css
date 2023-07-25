@@ -1,0 +1,128 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+    background-color: rgb(187, 143, 62);
+    align-items: center;
+    padding: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+    
+}
+.img1 img{
+    
+    position: relative;
+    width: 1000px;
+    height: 500px;
+  left: 150px;
+  padding-bottom: 40px;
+  
+
+}
+.imgInicio img{
+    position: relative;
+    left: 180px;
+    padding-bottom: 40px;
+
+}
+.quiencreo img{
+    position: relative;
+    left: 150px;
+    padding-bottom: 40px;
+    
+}
+.queParte img{
+    position: relative;
+    width: 80%;
+    height: 60%;
+    left: 130px;
+}
+ 
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-60px);
+    }100%{
+        transform: translateY(0px);
+    }
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 50px;
+    text-align: justify;
+    margin-top: 35px;
+    font-size: 1-5ex;
+    text-decoration: solid;
+    color: hsl(0, 46%, 22%);
+    
+}
+nav a{
+    
+    font-weight: 600;
+    padding-right: 10px;
+
+}
+nav a:hover{
+    color:white;
+}
+div h1{
+    text-align: center;
+    padding-right: 100px;
+}
+div p{
+    color: black;
+}
+.catalogo{
+    padding-left: 450px;
+    margin: 50px;    
+    
+}
+body{
+    font-family: sans-serif;
+    
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size:larger; 
+    margin: 0;    
+    background-color: rgb(250, 241, 152);
+    background-position: 0, center;
+    background-repeat: no-repeat, repeat;
+    background-size: cover, auto;
+    background-attachment: fixed, scroll;
+    
+}
+.container{
+    position: absolute;
+    left: 85%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    padding: 10px; 
+       
+}
+
+h1{
+    margin-left: 40px;
+
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 1em 0;
+    border: rgb(0, 0, 0) 20px solid;
+    width: 100%;
+    text-align: center;
+    align-self: flex-end;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+}
